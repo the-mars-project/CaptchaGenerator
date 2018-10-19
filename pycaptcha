@@ -23,3 +23,4 @@ def captcha():
 		b = random.randint(0,100) 
 		if input('whats {} + {}?\n>') == a + b:
 			return True
+	return False
