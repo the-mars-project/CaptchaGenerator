@@ -14,4 +14,8 @@ def captcha():
 	if choice == 'date':
 		if input('What is the date today?\n>') == datetime.datetime.today()
 			return True
- return False
+	if choice == 'color':
+		color = random.choice(colors)
+		if input(colored('what color is this text?', color)) == color:
+			return True
+Return False
