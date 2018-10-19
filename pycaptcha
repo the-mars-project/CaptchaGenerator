@@ -18,4 +18,8 @@ def captcha():
 		color = random.choice(colors)
 		if input(colored('what color is this text?', color)) == color:
 			return True
-Return False
+	if choice == 'math':
+		a = random.randint(0,100) 
+		b = random.randint(0,100) 
+		if input('whats {} + {}?\n>') == a + b:
+			return True
